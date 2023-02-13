@@ -8,9 +8,9 @@ const getData = () => {
     },
     {
       id: 2,
-      name: "Elrawi 27",
-      tag: "elrawi",
-      imageUrl: "/images/yayan2.jpg",
+      name: "Karang Taruna",
+      tag: "katar",
+      imageUrl: "/images/karangtaruna.png",
     },
     {
       id: 3,
