@@ -1,5 +1,5 @@
 import React from "react";
-import { getData } from "./data";
+import { getData } from "../utils/data";
 import { ContactList } from "./ContactList";
 
 export const ContactApp = () => {
