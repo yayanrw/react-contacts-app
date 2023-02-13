@@ -25,7 +25,7 @@ const getData = () => {
       imageUrl: "/images/dermatology.png",
     },
     {
-      id: 1,
+      id: 5,
       name: "Halalan Toyyibah",
       tag: "halal",
       imageUrl: "/images/halal.png",
