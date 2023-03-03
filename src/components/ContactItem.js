@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import { ContactItemImage } from "./ContactItemImage";
 import { ContactItemBody } from "./ContactItemBody";
@@ -11,4 +12,12 @@ export const ContactItem = ({ imageUrl, name, tag, id, onDelete }) => {
       <DeleteButton id={id} onDelete={onDelete} />
     </div>
   );
+};
+
+ContactItem.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+  onDelete: PropTypes.func.isRequired,
 };
