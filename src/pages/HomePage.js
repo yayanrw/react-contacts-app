@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { deleteContact, getContacts } from "../utils/data";
 import { ContactList } from "../components/ContactList";
 
-export class HomePage extends Component {
+class HomePage extends Component {
   constructor(props) {
     super(props);
 
